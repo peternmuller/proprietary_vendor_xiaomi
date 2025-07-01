@@ -237,7 +237,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/alioth/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/alioth/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/alioth/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
-    vendor/xiaomi/alioth/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
+    vendor/xiaomi/alioth/proprietary/vendor/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/libnfc-nxp_RF.conf \
     vendor/xiaomi/alioth/proprietary/vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml \
     vendor/xiaomi/alioth/proprietary/vendor/etc/mdss_dsi_k11a_38_08_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_k11a_38_08_0a_dsc_cmd_mi.xml \
     vendor/xiaomi/alioth/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
@@ -484,7 +484,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
-    vendor/xiaomi/alioth/proprietary/vendor/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100u_fw.so \
+    vendor/xiaomi/alioth/proprietary/vendor/lib64/libsn100u_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsn100u_fw.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libssrec_alioth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec_alioth.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_qtiflacdec.so \
     vendor/xiaomi/alioth/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so \
